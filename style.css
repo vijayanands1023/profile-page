@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+.container{
+    padding: 50px;
+
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contract{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-one__name{
+    font-size: 60px;
+}
+.section-one__role{
+    font-size: 30px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.section-five__title a{
+    color: skyblue;
+    text-decoration: none;
+}
+.section-three{
+    background-color: orangered;
+    padding: 44px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}.section-three li,.section-four li{
+    list-style: none;
+}
+.section-four{
+    background-color: blueviolet;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius:10px ;
+}
+.contract-form{
+    margin-top: 20px;
+}
+.contract-form__Name,.contract-form__number,.contract-form__mail,.contract-form__Submit{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom:black 10px;
+}
+.contract-form__Submit{
+    padding: 10px;
+    background-color: aquamarine;
+    color: blue;
+}
